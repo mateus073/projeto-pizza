@@ -1,0 +1,36 @@
+.dApresenta {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.dApresenta img {
+    width: 70%;
+}
+
+.opcoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Define duas colunas iguais */
+    gap: 0.8rem;
+    margin-bottom: 20px;
+}
+
+.opc {
+    text-align: center;
+    border: solid 1px black;
+    background-color: #fd6d6d;
+    color: white;
+    font-size: 12pt;
+    border-radius: 15px;
+    padding: 12px;
+    width: 100%;
+}
+
+#proximo {
+    background-color: #faa332;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    font-size: 12pt;
+    font-weight: 700;
+}

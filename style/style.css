@@ -1,0 +1,92 @@
+*{
+  margin: 0px;  
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(240, 230, 230);
+}
+
+.cabecalho {
+    display: flex;
+    padding: 10px;
+    background-color: #f55252;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho img {
+    height: 45px;
+}
+
+.dApresenta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    gap: 1rem;
+}
+
+.dApresenta img {
+    max-width: 100%;
+}
+
+.dApresenta p {
+    text-align: center;
+    font-size: 14pt;
+    font-weight: 600;
+    color: #252525;
+}
+
+.dApresenta button {
+    padding: 15px;
+    border-radius: 18px;
+    background-color: #f76d6d;
+    color: white;
+    font-size: 12pt;
+    font-weight: 700;
+}
+
+.imgola {
+    background-position:center;
+}
+
+
+footer {
+    display: flex;
+    background-color: #f55252;
+    color: white;
+    font-size: 10pt;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+footer img {
+    height: 30px;
+}
+
+.social-links {
+text-align: center;
+}
+
+.social-links p {
+    padding-bottom: 5px;
+}
+
+.criador {
+    font-size: 9pt;
+}
